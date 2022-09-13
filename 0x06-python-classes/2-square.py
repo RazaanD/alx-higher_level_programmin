@@ -1,15 +1,16 @@
 #!/usr/bin/python3
 # 2-square.py
-"""This function define a square by private instance attribute."""
+"""Define a class Square."""
 
 
 class Square:
-    """The __init__ method initialize the values passed to the object.
-    Attributes:
-        size: its a private attribute.
-    """
+    """Represent a square."""
 
     def __init__(self, size=0):
+        """Initialize a new Square.
+        Args:
+            size (int): The size of the new square.
+        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
