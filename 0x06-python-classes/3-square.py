@@ -1,20 +1,23 @@
 #!/usr/bin/python3
-"""This function define a square by private instance attribute."""
+# 3-square.py
+"""Define a class Square."""
 
 
 class Square:
-    """The __init__ method initialize the values passed to the object.
-    Attributes:
-        size: its a private attribute.
-    """
+    """Represent a square."""
 
     def __init__(self, size=0):
+        """Initialize a new square.
+        Args:
+            size (int): The size of the new square.
+        """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
-        if size < 0:
+        elif size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
 
     def area(self):
-        """Public instance method that returns the current square area"""
+        """Return the current area of the square."""
+        return (self.__size * self.__size)urrent square area"""
         return self.__size * self.
