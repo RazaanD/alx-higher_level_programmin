@@ -5,8 +5,3 @@
 def class_to_json(obj):
     """Return the dictionary represntation of a simple data structure."""
     return obj.__dict__
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-P
