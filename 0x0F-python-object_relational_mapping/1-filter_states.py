@@ -1,5 +1,3 @@
-able File  32 lines (26 sloc)  832 Bytes
-
 #!/usr/bin/python3
 # Write a script that lists all states from the database hbtn_0e_0_usa
 
